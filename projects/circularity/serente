@@ -1,0 +1,15 @@
+var circle;		// variable to hold a single circle when creating circles / iterating
+var circles = [];	// variable to store all circles in one Array
+
+// TODO 1: Declare our variables //
+var circle;
+var circles = [];
+
+var drawCircle = function() {
+    // TODO 2: Draw a circle //
+    circle = draw.randomCircleInArea(canvas, true, true, '#999', 2);
+    physikz.addRandomVelocity(circle, canvas);
+    view.addChild(circle);
+    circles.push(circle);
+    
+    
