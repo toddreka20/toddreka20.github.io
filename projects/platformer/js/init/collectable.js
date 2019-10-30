@@ -1,3 +1,4 @@
+/*globals cannon */
 (function (window) {
     'use strict';
     window.opspark = window.opspark || {};
