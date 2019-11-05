@@ -40,11 +40,7 @@
         
         collectable.create(type.kennedi, 300, 360 , 5, 3);
         
-        cannon.create.onTop(570);
-        cannon.create.onBottom(50);
-        cannon.create.onLeft(100);
-        cannon.create.onRight(150); 
-        
+       
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
